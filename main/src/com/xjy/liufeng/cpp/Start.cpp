@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
             cout << /*putchar*/((pow(x*x+y*y-1,3)<=x*x*pow(y,3))?'x':' ');
         }
         endl(cout);//cout << '\n' << endl; or cout << endl;
-        //sleep(t); t = 100
+        Sleep(100);
     }
     cout << "\tHello, World!" << endl;
     return 0;
