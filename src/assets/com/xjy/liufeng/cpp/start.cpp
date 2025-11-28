@@ -9,8 +9,8 @@ int main(int argc, char** argv) {
         for(double j = -1.4; j <= 1.4; j+=0.05) {
             putchar((pow(i*i+j*j-1,3)<=i*i*pow(j,3))?'*':' ');
         }
-        cout << "\n" << endl;
-        //Sleep(100);
+        endl(cout);//cout << "\n" << endl; or cout << endl;
+        //Sleep(t); t=100
     }
 
     cout << "\tHello, World!" << endl;
