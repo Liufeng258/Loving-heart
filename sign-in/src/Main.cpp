@@ -1,4 +1,4 @@
-/*This is a useless login system and there is no UI.*/
+//This is a useless login system and there is no UI.
 #include <iostream>
 #include <vector>
 #include <fstream>
